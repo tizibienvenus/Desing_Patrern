@@ -1,6 +1,6 @@
-# Projet de Dépistage de Paludisme en Python
+# Projet de Dépistage de Paludisme en Python et Java
 
-Ce projet implémente un système de dépistage du paludisme en utilisant plusieurs patrons de conception en Python. Les patrons de conception utilisés incluent Singleton, Abstract Factory, Composite, Decorator, Observer et Strategy.
+Ce projet implémente un système de dépistage du paludisme en utilisant plusieurs patrons de conception en Python et Java. Les patrons de conception utilisés incluent Singleton, Abstract Factory, Composite, Decorator, Observer et Strategy.
 
 ## Structure du Projet
 
@@ -56,12 +56,48 @@ Ce projet implémente un système de dépistage du paludisme en utilisant plusie
 
 ## Exécution
 
-Pour exécuter le projet, assurez-vous d'avoir Python installé sur votre machine. Sauvegardez le code ci-dessous dans un fichier nommé `app.py` et exécutez-le avec la commande suivante :
+### Pré-requis
 
-```bash
-### Java
-  javac *.java
-  java Main
+- Python 3.x
+- JDK (Java Development Kit)
 
-### Python
- python3 app.py
+### Instructions
+
+#### Exécution du Code Java
+
+Pour exécuter le projet Java, suivez ces étapes :
+
+1. Clonez le dépôt ou téléchargez les fichiers sources.
+2. Assurez-vous d'avoir le JDK installé.
+3. Compilez les fichiers Java :
+
+    ```bash
+    javac *.java
+    ```
+
+4. Exécutez le fichier principal :
+
+    ```bash
+    java Main
+    ```
+
+#### Exécution du Code Python
+
+Pour exécuter le projet Python, suivez ces étapes :
+
+1. Clonez le dépôt ou téléchargez les fichiers sources.
+2. Assurez-vous d'avoir Python 3.x installé.
+3. Exécutez le script principal :
+
+    ```bash
+    python3 app.py
+    ```
+
+## Fonctionnalités
+
+- **Laboratoire Singleton** : Assure qu'il n'y ait qu'une seule instance du laboratoire.
+- **Usines Abstraites** : Création d'objets sans spécifier la classe concrète.
+- **Composite** : Permet de traiter des objets individuels et des compositions de manière uniforme.
+- **Decorator** : Ajoute dynamiquement des responsabilités aux objets.
+- **Observer** : Permet à un objet d'être notifié lorsque l'état d'un autre objet change.
+- **Strategy** : Permet de définir une famille d'algorithmes, de les encapsuler dans des classes séparées et de les rendre interchangeables.
